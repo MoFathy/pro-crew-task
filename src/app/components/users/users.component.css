@@ -1,0 +1,38 @@
+::ng-deep .options {
+    padding: 20px;
+    background-color: rgba(191, 191, 191, 0.15);
+    margin-top: 20px;
+}
+
+::ng-deep .option {
+    margin-top: 10px;
+}
+
+::ng-deep .caption {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+::ng-deep .option > label {
+    margin-right: 10px;
+}
+
+::ng-deep .option > .dx-selectbox {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#data-grid-demo{
+    margin-top: 20px;
+    box-shadow: 0 1px 3px #ddd;
+}
+
+.users-header{
+    padding: 2em;
+    box-shadow: 0 1px 3px #ddd;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}

@@ -1,0 +1,83 @@
+<div class="submit-form">
+    <div class="users-header d-flex justify-content-between align-items-center"><p class="m-0 h3">Add New User </p></div>
+
+    <form class="mt-4" [formGroup]="userForm" (ngSubmit)="saveUser()" novalidate>
+        <div class="row" *ngIf="!submitted">
+        <div class="col-12 col-md-6 py-2">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  required
+                  formControlName="name"
+                />
+              </div>
+        </div>
+        <div class="col-12 col-md-6 py-2">
+            <div class="form-group">
+                <label for="email">email</label>
+                <input
+                  class="form-control"
+                  id="email"
+                  type="email"
+                  required
+                  formControlName="email"
+                />
+              </div>
+        </div>
+        <div class="col-12 col-md-6 py-2">
+            <div class="form-group">
+                <label for="mobile">mobile</label>
+                <input
+                  class="form-control"
+                  id="mobile"
+                  type="tel"
+                  required
+                  formControlName="mobile"
+                />
+              </div>
+        </div>
+        <div class="col-12 col-md-6 py-2">
+            <div class="form-group">
+                <label for="birth_date">birth date</label>
+                <input
+                  class="form-control"
+                  id="birth_date"
+                  type="date"
+                  required
+                  formControlName="birth_date"
+                />
+              </div>
+        </div>
+        <div class="col-12 col-md-6 py-2">
+            <div class="form-group">
+                <label for="salary">salary</label>
+                <input
+                  class="form-control"
+                  id="salary"
+                  type="number"
+                  required
+                  formControlName="salary"
+                />
+              </div>
+        </div>
+        <div class="col-12 col-md-6 py-2 text-right">
+          <button (click)="saveUser()" class="btn btn-dark mt-4 float-right px-5" [disabled]="!userForm.valid">Submit</button>
+        </div>  
+        </div>
+    </form>
+  
+    <div *ngIf="submitted">
+      <h4>You submitted successfully!</h4>
+      <div class="row">
+          <div class="col-6">
+              <button class="btn btn-dark mt-3" (click)="newuser()">Add New User</button>
+          </div>
+          <div class="col-6">
+              <a class="btn btn-success">Go to main page</a>
+          </div>
+      </div>
+    </div>
+  </div>

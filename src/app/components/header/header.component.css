@@ -1,0 +1,13 @@
+.navbar{
+    box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
+}
+.navbar a{ 
+    text-decoration: none;
+    color: var(--mainColor);
+    display: flex;
+    font-family: var(--fontFamily);
+}
+.navbar img{ 
+    width: 100px;
+    margin-right: 10px;
+}

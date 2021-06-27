@@ -1,0 +1,19 @@
+.users-header{
+    padding: 2em;
+    box-shadow: 0 1px 3px #ddd;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+form{
+    padding: 16px;
+    box-shadow: 0 1px 3px #ddd;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}

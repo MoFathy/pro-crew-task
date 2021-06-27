@@ -1,0 +1,58 @@
+[
+    {
+    "id": 1,
+    "name": "Leanne Graham",
+    "email": "Sincere@april.biz",
+    "phone": "1-770-736-8031",
+    "salary": 2000,
+    "birth_date": "1988/07/18"
+    },
+    {
+    "id": 2,
+    "name": "Ervin Howell",
+    "email": "Shanna@melissa.tv",
+    "phone": "010-692-6593",
+    "salary": 3000,
+    "birth_date": "1988/08/18"
+    },
+    {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "email": "Nathan@yesenia.net",
+    "phone": "1-463-123-4447",
+    "salary": 4000,
+    "birth_date": "1988/09/18"
+    },
+    {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "email": "Julianne.OConner@kory.org",
+    "phone": "493-170-9623",
+    "salary": 5000,
+    "birth_date": "1988/10/18"
+    },
+    {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "email": "Lucio_Hettinger@annie.ca",
+    "phone": "(254)954-1289",
+    "salary": 6000,
+    "birth_date": "1988/11/18"
+    },
+    {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "email": "Karley_Dach@jasper.info",
+    "phone": "(254)954-1289",
+    "salary": 7000,
+    "birth_date": "1988/12/18"
+    },
+    {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "email": "Telly.Hoeger@billy.biz",
+    "phone": "210.067.6132",
+    "salary": 8000, 
+    "birth_date": "1988/05/18" 
+    }
+    ]
